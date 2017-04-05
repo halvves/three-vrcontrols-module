@@ -1,0 +1,43 @@
+{
+  "name": "three-vrcontrols-module",
+  "description": "THREE.VRControls as a module (if you're into that sort of thing)",
+  "version": "0.1.0",
+  "main": "vr-controls.js",
+  "repository": "https://github.com/halvves/three-vrcontrols-module.git",
+  "author": "halvves <hi@halvves.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint vr-controls.js"
+  },
+  "pre-commit": {
+    "run": [
+      "lint"
+    ]
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": "google",
+    "globals": {
+      "document": "true",
+      "window": "true"
+    },
+    "rules": {
+      "max-len": [
+        1,
+        120
+      ],
+      "require-jsdoc": [
+        0
+      ]
+    }
+  },
+  "dependencies": {
+    "three": "^0.84.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.1",
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.7.1",
+    "pre-commit": "^1.2.2"
+  }
+}
