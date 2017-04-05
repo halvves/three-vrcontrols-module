@@ -1,7 +1,7 @@
 {
   "name": "three-vrcontrols-module",
   "description": "THREE.VRControls as a module (if you're into that sort of thing)",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": "https://github.com/halvves/three-vrcontrols-module.git",
   "bugs": {
     "url": "https://github.com/halvves/three-vrcontrols-module/issues"
