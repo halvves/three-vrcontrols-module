@@ -6,6 +6,12 @@
 
 I didn't like any of the existing solutions I could find for using VRControls in a modular js build. So I made this.
 
+1. Install:
+```bash
+npm i -S three-vrcontrols-module
+```
+
+2. Use:
 ```javascript
 import VRControls from 'three-vrcontrols-module';
 const controls = new VRControls(camera);
