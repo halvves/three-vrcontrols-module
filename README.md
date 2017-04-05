@@ -1,6 +1,6 @@
 # THREE.VRControls as a module
 
-I didn't any of the existing solutions I could find to use VRControls in a modular webpack build. So I made this.
+I didn't like any of the existing solutions I could find for using VRControls in a modular js build. So I made this.
 
 ```javascript
 import VRControls from 'three-vrcontrols-module';
