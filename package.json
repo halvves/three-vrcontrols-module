@@ -2,16 +2,40 @@
   "name": "three-vrcontrols-module",
   "description": "THREE.VRControls as a module (if you're into that sort of thing)",
   "version": "1.0.0",
-  "main": "vr-controls.js",
   "repository": "https://github.com/halvves/three-vrcontrols-module.git",
+  "bugs": {
+    "url": "https://github.com/halvves/three-vrcontrols-module/issues"
+  },
   "author": "halvves <hi@halvves.com>",
   "license": "MIT",
+  "keywords": [
+    "three",
+    "threejs",
+    "vr",
+    "webvr",
+    "3d",
+    "three vr"
+  ],
+  "main": "dist/vr-controls.js",
+  "jsnext:main": "src/vr-controls.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
+    "prebuild": "npm run lint",
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build",
     "lint": "eslint vr-controls.js"
   },
   "pre-commit": {
     "run": [
       "lint"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "es2015"
     ]
   },
   "eslintConfig": {
@@ -35,7 +59,9 @@
     "three": "^0.84.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.24.0",
     "babel-eslint": "^7.2.1",
+    "babel-preset-es2015": "^6.24.0",
     "eslint": "^3.19.0",
     "eslint-config-google": "^0.7.1",
     "pre-commit": "^1.2.2"
