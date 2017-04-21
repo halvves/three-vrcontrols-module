@@ -19,7 +19,7 @@ const controls = new VRControls(camera);
 
 Converted from: https://github.com/mrdoob/three.js/blob/master/examples/js/controls/VRControls.js
 
-Currently up to date with THREE r84
+Currently up to date with THREE r85
 
 [npm-badge]: https://img.shields.io/npm/v/three-vrcontrols-module.svg
 [npm-badge-url]: https://www.npmjs.com/package/three-vrcontrols-module
