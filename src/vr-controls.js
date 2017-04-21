@@ -97,22 +97,6 @@ export default class VRControls {
     }
   };
 
-  resetPose() {
-    if (this.vrDisplay) {
-      this.vrDisplay.resetPose();
-    }
-  };
-
-  resetSensor() {
-    console.warn('VRControls: .resetSensor() is now .resetPose().');
-    this.resetPose();
-  };
-
-  zeroSensor() {
-    console.warn('VRControls: .zeroSensor() is now .resetPose().');
-    this.resetPose();
-  };
-
   dispose() {
     this.vrDisplay = null;
   };
