@@ -2,7 +2,8 @@
 
 [![Latest NPM release][npm-badge]][npm-badge-url]
 [![License][license-badge]][license-badge-url]
-[![Dependencies][dependencies-badge]][dependencies-badge-url]
+[![Peer Dependencies][peer-dependencies-badge]][peer-dependencies-badge-url]
+[![Dev Dependencies][dev-dependencies-badge]][dev-dependencies-badge-url]
 
 I didn't like any of the existing solutions I could find for using VRControls in a modular js build. So I made this.
 
@@ -25,5 +26,7 @@ Currently up to date with THREE r92
 [npm-badge-url]: https://www.npmjs.com/package/three-vrcontrols-module
 [license-badge]: https://img.shields.io/npm/l/three-vrcontrols-module.svg
 [license-badge-url]: ./LICENSE.md
-[dependencies-badge]: https://img.shields.io/david/halvves/three-vrcontrols-module.svg
-[dependencies-badge-url]: https://david-dm.org/halvves/three-vrcontrols-module
+[peer-dependencies-badge]: https://david-dm.org/halvves/three-vrcontrols-module/peer-status.svg
+[peer-dependencies-badge-url]: https://david-dm.org/halvves/three-vrcontrols-module?type=peer
+[dev-dependencies-badge]: https://david-dm.org/halvves/three-vrcontrols-module/dev-status.svg
+[dev-dependencies-badge-url]: https://david-dm.org/halvves/three-vrcontrols-module?type=dev
