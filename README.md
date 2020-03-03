@@ -1,32 +1,12 @@
-# THREE.VRControls as a module
-
+# :no_entry: [DEPRECATED] THREE.VRControls as a module
+![Unmaintained][maintenance-badge]
 [![Latest NPM release][npm-badge]][npm-badge-url]
 [![License][license-badge]][license-badge-url]
-[![Peer Dependencies][peer-dependencies-badge]][peer-dependencies-badge-url]
-[![Dev Dependencies][dev-dependencies-badge]][dev-dependencies-badge-url]
 
-I didn't like any of the existing solutions I could find for using VRControls in a modular js build. So I made this.
+THREE.VRControls has been deprecated in favor of [WebXRManager](https://github.com/mrdoob/three.js/blob/dev/src/renderers/webxr/WebXRManager.js). More info can be found in the guide [How to create VR content](https://threejs.org/docs/index.html#manual/en/introduction/How-to-create-VR-content) and its related examples.
 
-1. Install:
-```bash
-npm i -S three-vrcontrols-module
-```
-
-2. Use:
-```javascript
-import VRControls from 'three-vrcontrols-module';
-const controls = new VRControls(camera);
-```
-
-Converted from: https://github.com/mrdoob/three.js/blob/master/examples/js/controls/VRControls.js
-
-Currently up to date with THREE r92
-
+[maintenance-badge]: https://img.shields.io/maintenance/no/2018
 [npm-badge]: https://img.shields.io/npm/v/three-vrcontrols-module.svg
 [npm-badge-url]: https://www.npmjs.com/package/three-vrcontrols-module
 [license-badge]: https://img.shields.io/npm/l/three-vrcontrols-module.svg
 [license-badge-url]: ./LICENSE.md
-[peer-dependencies-badge]: https://david-dm.org/halvves/three-vrcontrols-module/peer-status.svg
-[peer-dependencies-badge-url]: https://david-dm.org/halvves/three-vrcontrols-module?type=peer
-[dev-dependencies-badge]: https://david-dm.org/halvves/three-vrcontrols-module/dev-status.svg
-[dev-dependencies-badge-url]: https://david-dm.org/halvves/three-vrcontrols-module?type=dev
